@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #3a3a3a;
+}
+
+.svg-box {
+  padding: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  /* align-content: space-between; */
+  justify-content: space-evenly;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  padding: 2rem;
+  width: 9rem;
+  background-color: crimson;
+  text-align: center;
+  cursor: pointer;
+  transition: 303ms all ease-in-out;
+}
+
+h3:hover {
+  box-shadow: 3px 3px 30px crimson;
+}

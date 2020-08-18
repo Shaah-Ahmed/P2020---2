@@ -1,0 +1,13 @@
+/* Coolors Exported Palette - https://coolors.co/f8fff4-474350-f26602 */
+
+/* CSV */
+f8fff4,474350,f26602
+
+/* Array */
+["f8fff4","474350","f26602"]
+
+/* Object */
+{"Mint Cream":"f8fff4","Dark Liver":"474350","Spanish Orange":"f26602"}
+
+/* Extended Array */
+[{"name":"Mint Cream","hex":"f8fff4","rgb":[248,255,244],"cmyk":[3,0,4,0],"hsb":[98,4,100],"hsl":[98,100,98],"lab":[99,-4,4]},{"name":"Dark Liver","hex":"474350","rgb":[71,67,80],"cmyk":[11,16,0,69],"hsb":[258,16,31],"hsl":[258,9,29],"lab":[29,5,-7]},{"name":"Spanish Orange","hex":"f26602","rgb":[242,102,2],"cmyk":[0,58,99,5],"hsb":[25,99,95],"hsl":[25,98,48],"lab":[60,50,69]}]

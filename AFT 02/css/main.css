@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Scada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  background: #070707;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 20rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 3rem;
+  height: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #f8fff4;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background: #f8fff4;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.top-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #070707;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.line-mid {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 5px;
+  background-color: none;
+  z-index: -1;
+  -webkit-animation: flikr 3000ms infinite;
+          animation: flikr 3000ms infinite;
+}
+
+.line-high {
+  width: 100vw;
+  position: absolute;
+  top: 47%;
+  left: 0;
+  height: 5px;
+  background-color: none;
+  -webkit-animation: flikr 3000ms infinite;
+          animation: flikr 3000ms infinite;
+  z-index: -1;
+}
+
+.line-low {
+  width: 100vw;
+  position: absolute;
+  top: 53%;
+  left: 0;
+  height: 5px;
+  background-color: none;
+  -webkit-animation: flikr 3000ms infinite;
+          animation: flikr 3000ms infinite;
+  z-index: -1;
+}
+
+.container {
+  height: 555px;
+  width: 555px;
+  position: relative;
+  background-color: #070707;
+  border: 3px dotted;
+  border-color: #05a05a #0a50a5;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+@-webkit-keyframes flikr {
+  0% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  50% {
+    -webkit-box-shadow: 5px 5px 50px #05a05a;
+            box-shadow: 5px 5px 50px #05a05a;
+  }
+  100% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@keyframes flikr {
+  0% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  50% {
+    -webkit-box-shadow: 5px 5px 50px #05a05a;
+            box-shadow: 5px 5px 50px #05a05a;
+  }
+  100% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+.wave {
+  position: absolute;
+  right: 250px;
+  bottom: 255px;
+}
+
+.top-wing-three {
+  position: absolute;
+  right: 171px;
+  top: 170.5px;
+}
+
+.top-wing-two {
+  position: absolute;
+  right: 171px;
+  top: 163px;
+}
+
+.top-wing-one {
+  position: absolute;
+  right: 171px;
+  top: 153px;
+}
+
+.below-wing-one {
+  position: absolute;
+  /*! left: 138px; */
+  /*! top: 385px; */
+  right: 159px;
+  bottom: 170px;
+}
+
+.below-wing-two {
+  position: absolute;
+  /*! left: 138px; */
+  /*! top: 392px; */
+  right: 251px;
+  bottom: 163px;
+}
+
+.below-wing-three {
+  position: absolute;
+  /*! left: 138px; */
+  /*! top: 402px; */
+  right: 315px;
+  bottom: 153px;
+}
+
+.one {
+  left: 430px;
+  top: 204px;
+  position: absolute;
+  color: #f8fff4;
+  font-family: "Scada", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 41px;
+}
+
+.two {
+  left: 316px;
+  top: 245px;
+  position: absolute;
+  color: #05a05a;
+  font-family: "Scada", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 41px;
+}
+
+.three {
+  position: absolute;
+  left: 345px;
+  top: 286px;
+  color: #f8fff4;
+  font-family: "Scada", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 41px;
+}

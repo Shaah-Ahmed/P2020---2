@@ -1,0 +1,116 @@
+/* wave */
+
+position: absolute;
+width: 14px;
+height: 154px;
+left: 105px;
+top: 284px;
+
+border: 3px solid #F26602;
+transform: rotate(-90deg);
+
+
+/* top-wing-three */
+
+position: absolute;
+width: 61px;
+height: 258px;
+left: 383px;
+top: 170.5px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(90deg);
+
+
+/* top-wing-two */
+
+position: absolute;
+width: 34px;
+height: 166px;
+left: 382.5px;
+top: 163px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(90deg);
+
+
+/* top-wing-one */
+
+position: absolute;
+width: 21px;
+height: 103px;
+left: 383.5px;
+top: 153px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(90deg);
+
+
+/* below-wing-one */
+
+position: absolute;
+width: 61px;
+height: 258px;
+left: 137.88px;
+top: 384.5px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(-90deg);
+
+
+/* Below-wing-two */
+
+position: absolute;
+width: 34px;
+height: 166px;
+left: 138.38px;
+top: 392px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(-90deg);
+
+
+/* below-wing-three */
+
+position: absolute;
+width: 21px;
+height: 103px;
+left: 137.38px;
+top: 402px;
+
+border: 3px solid #F8FFF4;
+transform: rotate(-90deg);
+
+/--/--/--/--/--/
+
+
+
+--A
+	left: 430px;
+	top: 204px;
+
+	font-family: Scada;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	line-height: 41px;
+	
+--floating
+	left: 316px;
+	top: 245px;
+
+	font-family: Scada;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	line-height: 41px;
+	
+--turtle
+	left: 345px;
+	top: 286px;
+
+	font-family: Scada;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	line-height: 41px;
